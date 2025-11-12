@@ -1,0 +1,80 @@
+/* 
+ Theme Name : My Custom Theme
+Theme :  URI: http://example.com/my-custom-theme
+Author: Your Name
+Author URI: http://example.com
+Description: A custom WordPress theme for a local business
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: my-custom-theme
+*/
+
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+nav {
+    margin-top: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: #333;
+}
+
+.custom-recipe-link {
+    color: #ff6347; 
+
+}
+
+.homemade-recipes-menu {
+    font-weight: bold;
+    color: #ff6347; /* Tomato color */
+}
+
+/* Style for the header logo */
+.header-logo img {
+    max-width: 100%; /* Ensure the logo doesn't exceed the container's width */
+    height: auto;    /* Maintain aspect ratio */
+    max-height: 100px; /* Set a maximum height for the logo */
+}
+
+/* If no logo is set, style the site title */
+.header-logo h1 {
+    font-size: 36px;  /* Adjust the size of the site title */
+    font-weight: bold;
+    margin: 0;
+}
+
+.header-logo a {
+    text-decoration: none;
+    color: inherit;
+}
+
